@@ -30,6 +30,9 @@
   background-color: #F1FFF8;
   padding: 2% 3%;
 }
+.navpanel a {
+  color: #212D32;
+}
 .navpanel .contacts > :not(:last-child) {
   padding-right: 30px;
 }
