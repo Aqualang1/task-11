@@ -359,13 +359,27 @@
   border: 1px solid #6377DD;
   padding: 10px 20px;
 }
-.table--big {
+.table .red {
+  border-top: 1px solid #F62A2A;
+  border-left: 1px solid #F62A2A;
+  border-right: 1px solid #F62A2A;
+}
+.table .red--left {
+  border-top: 1px solid #6377DD;
+}
+.table .red--bottom {
+  border-left: 1px solid #F62A2A;
+  border-right: 1px solid #F62A2A;
+  border-top: 1px solid #6377DD;
+  border-bottom: 1px solid #F62A2A;
+}
+.table .red--big {
   color: #212D32;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 24px;
 }
-.table--price {
+.table .red--price {
   font-weight: 300;
   font-size: 58px;
 }

@@ -472,11 +472,29 @@ $more-grey: #888282;
         padding: 10px 20px;
     }
 
+    .red {
+        border-top: 1px solid $red;
+        border-left: 1px solid $red;
+        border-right: 1px solid $red;
+
+        &--left{
+            border-top: 1px solid #6377DD;
+        }
+
+        &--bottom{
+                border-left: 1px solid $red;
+                border-right: 1px solid $red;
+                border-top: 1px solid #6377DD;
+                border-bottom: 1px solid $red;
+        
+    }
+
     &--big {
         color: $head-txt;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 24px;
+
     }
 
     &--price {
@@ -484,9 +502,19 @@ $more-grey: #888282;
         font-size: 58px;
     }
 
-    // &--red {
-    //     outline-color: $red;
-    // }
+    // >&--red {
+    //     border-top: 1px solid $red;
+    //     border-left: 1px solid $red;
+    //     border-right: 1px solid $red;
+
+    //     &--bottom {
+    //         border-left: 1px solid $red;
+    //         border-right: 1px solid $red;
+    //         border-top: 1px solid #6377DD;
+    //         border-bottom: 1px solid $red;
+
+    //     }
+    }
 
 }
 
